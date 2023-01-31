@@ -1,2 +1,2 @@
 [ansi_test]
-ansi-test ansible_host=192.168.64.6 ansible_user=ansi ansible_connection=ssh ansible_ssh_private_key_file=/root/.ssh/ansi-test
+ansi-test ansible_host=192.168.64.6 ansible_user=ansi ansible_connection=ssh ansible_ssh_private_key_file=~/.ssh/ansi-test
