@@ -1,0 +1,18 @@
+---
+username: ansi
+packages:
+  - neofetch
+  - htop
+  - golang
+  - python3-dev
+  - speedtest-cli
+
+shell: /bin/bash
+
+pip_install_packages:
+  - name: docker
+
+# docker
+docker_compose_version: "v2.11.1"
+docker_apt_gpg_key: "https://download.docker.com/linux/ubuntu/gpg"
+docker_apt_repository: "deb https://download.docker.com/linux/ubuntu jammy stable"

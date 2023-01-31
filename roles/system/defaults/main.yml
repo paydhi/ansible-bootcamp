@@ -1,0 +1,15 @@
+---
+username: ansi
+
+password: ansitest
+
+shell: /bin/bash
+
+ssh_port: 22
+
+packages:
+  - neofetch
+  - htop
+  - golang
+  - python3-dev
+  - speedtest-cli

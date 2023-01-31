@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+
+#  tasks:
+#    - import_tasks: tasks/essential.yml
+  roles:
+    - role: system
+    - role: geerlingguy.docker
+    - role: geerlingguy.pip
